@@ -18,7 +18,7 @@ setuptools.setup(
     version=__version__,
     author=GITHUB_AUTHOR_USER_NAME,
     author_email=GITHUB_AUTHOR_EMAIL,
-    description="Mice Protein Expression",
+    description="MobilePriceClassification",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{GITHUB_AUTHOR_USER_NAME}/{GITHUB_REPO_NAME}",
