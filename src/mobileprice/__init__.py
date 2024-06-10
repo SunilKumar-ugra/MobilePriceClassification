@@ -18,4 +18,4 @@ logging.basicConfig(
     ]
 )
 
-logger=logging.getLogger("mobile-price")
+logger=logging.getLogger("mobileprice")
