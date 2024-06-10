@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 GITHUB_REPO_NAME = "MobilePriceClassification"
 GITHUB_AUTHOR_USER_NAME = "SunilKumar-ugra"
-SRC_REPO = "mobile-price"
+SRC_REPO = "mobileprice"
 GITHUB_AUTHOR_EMAIL = "ugargolsunilkumar@gmail.com"
 
 
