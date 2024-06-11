@@ -1,0 +1,24 @@
+COLUMNS:
+  battery_power: int64
+  blue: int64
+  clock_speed: float64
+  dual_sim: int64
+  fc: int64
+  four_g: int64
+  int_memory: int64
+  m_dep: float64
+  mobile_wt: int64
+  n_cores: int64
+  pc: int64
+  px_height: int64
+  px_width: int64
+  ram: int64
+  sc_h: int64
+  sc_w: int64
+  talk_time: int64
+  three_g: int64
+  touch_screen: int64
+  wifi: int64
+  price_range: int64
+TARGET_COLUMN:
+  name: price_range
