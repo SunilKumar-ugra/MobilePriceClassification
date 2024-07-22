@@ -31,6 +31,7 @@ class DataTransformation:
     def scaling(self,dataset):
         '''Scaling Feature'''
         
+
         logger.info('Scaling Down Selected Features')
         scaling_feature=[feature for feature in dataset.columns if feature not in [self.config.target_column] ]
         scaler=MinMaxScaler()
