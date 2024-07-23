@@ -73,6 +73,7 @@ class ConfigurationManager:
         params = self.params
         schema =  self.schema.TARGET_COLUMN
 
+
         create_directories([config.root_dir])
 
         model_trainer_config = ModelTrainerConfig(
