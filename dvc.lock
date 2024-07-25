@@ -68,22 +68,3 @@ stages:
       hash: md5
       md5: d41f177fd6ed41a4e9b55119eb536d12
       size: 318684
-  model_trainer:
-    cmd: python src/mobileprice/pipeline/stage_04_model_trainer.py
-    deps:
-    - path: artifacts/data_transformation/test.csv
-      hash: md5
-      md5: acf3b7d9ba8784f6cc155363681974d8
-      size: 106224
-    - path: artifacts/data_transformation/train.csv
-      hash: md5
-      md5: d41f177fd6ed41a4e9b55119eb536d12
-      size: 318684
-    - path: config/config.yaml
-      hash: md5
-      md5: b375fe29e4aef2777459ad3c2a0806ae
-      size: 1133
-    - path: src/mobileprice/pipeline/stage_04_model_trainer.py
-      hash: md5
-      md5: ce7f1cafe6a7c8ec557f4be0fb2e9b3b
-      size: 440
