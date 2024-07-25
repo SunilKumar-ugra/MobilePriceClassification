@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/mobileprice/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: b375fe29e4aef2777459ad3c2a0806ae
+      size: 1133
+    - path: src/mobileprice/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: 06c0f311283d348fd299e1f580a6e180
+      size: 906
+    outs:
+    - path: artifacts/data_ingestion/data.zip
+      hash: md5
+      md5: 2ff197d8f6b04bc63f8d3f28a769f74e
+      size: 72340
+    - path: artifacts/data_ingestion/test.csv
+      hash: md5
+      md5: 384ff19e433fbc285372ebfb43447d1c
+      size: 63850
+    - path: artifacts/data_ingestion/train.csv
+      hash: md5
+      md5: e8c4560161dc3c8571b5b2db25be3294
+      size: 122403
