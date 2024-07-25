@@ -10,14 +10,14 @@ stages:
       - artifacts/data_ingestion/test.csv
 
   
-  # data_validation:
-  #   cmd: python src/mobileprice/pipeline/stage_02_data_validation.py
-  #   deps:
-  #     - src/mobileprice/pipeline/stage_02_data_validation.py
-  #     - config/config.yaml
-  #     - artifacts/data_ingestion/train.csv
-  #   outs:
-  #     - artifacts/data_validation/status.txt
+  data_validation:
+    cmd: python src/mobileprice/pipeline/stage_02_data_validation.py
+    deps:
+      - src/mobileprice/pipeline/stage_02_data_validation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/train.csv
+    outs:
+      - artifacts/data_validation/status.txt
 
   # data_transformation:
   #   cmd: python src/mobileprice/pipeline/stage_03_data_transformation.py
